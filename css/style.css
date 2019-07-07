@@ -10,7 +10,7 @@ section {
 
 body header.bg-primary,
 body .bg-light,
-#topmenu {
+#topmenu-container {
   background-color: black!important;
 }
 
@@ -24,7 +24,18 @@ body .bg-light,
   margin: 0 auto;
 }
 
-#topmenu{
+#topmenu-container{
   color: aliceblue;
   font-size: 10px
+}
+#topmenu .item{
+  display: inline-block;
+}
+#topmenu .item span a{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 36px; 
+  color: #ffffff;
+  text: none;
 }
