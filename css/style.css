@@ -1,7 +1,3 @@
-header {
-  padding: 156px 0 100px;
-}
-
 section {
   padding: 150px 0;
 }
@@ -10,4 +6,25 @@ section {
 }
 .dropdown-menu{
   top: 85%;
+}
+
+body header.bg-primary,
+body .bg-light,
+#topmenu {
+  background-color: black!important;
+}
+
+#headerIMG{
+  height: 400px;
+  background-image: url(https://www.silvercloud.com/images/bellevueeastgate/mastheads/dining.jpg);
+}
+
+#logo img{
+  display: block;
+  margin: 0 auto;
+}
+
+#topmenu{
+  color: aliceblue;
+  font-size: 10px
 }
