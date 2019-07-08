@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 section {
   padding: 150px 0;
 }
@@ -24,12 +26,18 @@ body .bg-light,
   margin: 0 auto;
 }
 
+#topmenu{
+  padding-right: 0;
+}
+
 #topmenu-container{
   color: aliceblue;
   font-size: 10px
 }
 #topmenu .item{
   display: inline-block;
+  border-left: 1px solid #2c292a;
+  padding: 0 14px;
 }
 #topmenu .item span a{
   font-family: Arial, sans-serif;
@@ -37,5 +45,34 @@ body .bg-light,
   font-weight: 700;
   line-height: 36px; 
   color: #ffffff;
-  text: none;
+  text-decoration: none;
+}
+
+#topmenu .hotel-address{
+  background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/icon-location.png);
+  background-repeat: no-repeat;
+  background-position: left 9px center;
+  padding-left: 25px;
+}
+
+#topmenu .hotel-phone{
+  background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/icon-phone.png);
+  background-repeat: no-repeat;
+  background-position: left 9px center;
+  padding-left: 25px;
+}
+
+.navbar .nav-link{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+  padding: 0 15px;
+  font-size: 12px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: rgba(255, 255, 255, 1);
 }
