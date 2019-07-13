@@ -77,6 +77,11 @@ body .bg-light,
   color: rgba(255, 255, 255, 1);
 }
 
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #454545;
+  background-color: rgba(255, 255, 255, 1);
+}
+
 /* Multi level sub menu */
 .dropdown-submenu {
   position: relative;
@@ -93,4 +98,13 @@ body .bg-light,
 }
 .dropdown-menu li {
   border-bottom: 1px solid #eaeaea;
+}
+.dropdown-menu li:last-child {
+  border-bottom: 0;
+}
+.dropdown-menu li a{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
 }
