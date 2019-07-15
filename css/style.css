@@ -48,20 +48,27 @@ body .bg-light,
   text-decoration: none;
 }
 
-#topmenu .hotel-address{
+#topmenu .hotel-address span{
   background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/icon-location.png);
   background-repeat: no-repeat;
   background-position: left 9px center;
   padding-left: 25px;
 }
 
-#topmenu .hotel-phone{
+#topmenu .hotel-phone span{
   background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/icon-phone.png);
   background-repeat: no-repeat;
   background-position: left 9px center;
   padding-left: 25px;
 }
 
+.navbar{
+  padding: 0;
+}
+
+.navbar-toggler{
+  border-radius: 0!important;
+}
 .navbar .nav-link{
   font-family: 'Roboto Condensed', sans-serif;
   color: #ffffff;
@@ -75,11 +82,37 @@ body .bg-light,
 
 .navbar-dark .navbar-nav .nav-link{
   color: rgba(255, 255, 255, 1);
+  padding: 0 1em;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar .nav li.dropdown.show > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.show.active > .dropdown-toggle {
   color: #454545;
   background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-toggler{
+  height: 100px;
+  color: #FFF;
+  background-color: #c40e1f;
+  text-decoration: none;
+    display: block;
+    float: right;
+    background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/menu-button.png);
+    background-repeat: no-repeat;
+    background-position: center 55px;
+    padding: 80px 20px 45px 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-toggler > span{ 
+  background-image: none;
+  margin-right: 16px;
 }
 
 /* Multi level sub menu */
@@ -107,4 +140,44 @@ body .bg-light,
   text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
+}
+
+
+/* DESKTOP */
+@media (min-width: 62em) {
+  #topmenu-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  body nav{
+    padding-top: 36px!important;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 62em) {
+  #logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: inline;
+    width: 100px;
+  }
+  #logo img{
+    transform: scale(.8);
+  }
+  #topmenu{
+    text-align: center!important;
+    padding: 25px 15px;
+    background-color: #241f21;
+  }
+  nav {
+    z-index: 998;
+  }
+  #headerIMG{
+    background-size: cover;
+    height: 150px;
+  } 
 }
