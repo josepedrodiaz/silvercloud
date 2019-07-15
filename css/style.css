@@ -141,6 +141,16 @@ body .bg-light,
   font-size: 12px;
 }
 
+footer{
+  font-size: 12px;
+  color: rgb(230, 230, 230);
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer h2{
+  font-weight: 700;
+  font-size: 12px;
+}
+
 
 /* DESKTOP */
 @media (min-width: 62em) {
