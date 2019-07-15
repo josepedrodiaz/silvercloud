@@ -98,7 +98,6 @@ body .bg-light,
   color: #FFF;
   background-color: #c40e1f;
   text-decoration: none;
-    display: block;
     float: right;
     background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/menu-button.png);
     background-repeat: no-repeat;
@@ -170,7 +169,7 @@ body .bg-light,
   }
   #topmenu{
     text-align: center!important;
-    padding: 25px 15px;
+    padding: 5px;
     background-color: #241f21;
   }
   nav {
