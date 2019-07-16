@@ -17,6 +17,7 @@ body .bg-light,
 #headerIMG{
   height: 400px;
   background-image: url(https://www.silvercloud.com/images/bellevueeastgate/mastheads/dining.jpg);
+  background-size: cover;
 }
 
 #logo img{
