@@ -62,57 +62,7 @@ body .bg-light,
   padding-left: 25px;
 }
 
-.navbar{
-  padding: 0;
-}
 
-.navbar-toggler{
-  border-radius: 0!important;
-}
-.navbar .nav-link{
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #ffffff;
-  padding: 0 15px;
-  font-size: 12px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 400;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-  color: rgba(255, 255, 255, 1);
-  padding: 0 1em;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar .nav li.dropdown.show > .dropdown-toggle, 
-.navbar .nav li.dropdown.active > .dropdown-toggle, 
-.navbar .nav li.dropdown.show.active > .dropdown-toggle {
-  color: #454545;
-  background-color: rgba(255, 255, 255, 1);
-}
-
-.navbar-dark .navbar-toggler{
-  height: 100px;
-  color: #FFF;
-  background-color: #c40e1f;
-  text-decoration: none;
-    float: right;
-    background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/menu-button.png);
-    background-repeat: no-repeat;
-    background-position: center 55px;
-    padding: 80px 20px 45px 20px;
-    text-align: center;
-    font-size: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.navbar-dark .navbar-toggler > span{ 
-  background-image: none;
-  margin-right: 16px;
-}
 
 /* Multi level sub menu */
 .dropdown-submenu {
@@ -149,6 +99,20 @@ footer{
 footer h2{
   font-weight: 700;
   font-size: 12px;
+}
+
+/* hover dropdown menus */
+@media only screen and (max-width: 991px) {
+  .navbar-hover .show > .dropdown-toggle::after{
+      transform: rotate(-90deg);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar-hover .collapse ul li{position:relative;}
+  .navbar-hover .collapse ul li:hover> ul{display:block}
+  .navbar-hover .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+  .navbar-hover .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+  /*.navbar-hover .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}*/
 }
 
 
