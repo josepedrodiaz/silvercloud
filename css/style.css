@@ -62,9 +62,16 @@ body .bg-light,
   padding-left: 25px;
 }
 
+.btn-success{
+  background-color: #d81224;
+}
 
 
-/* Multi level sub menu */
+/* 
+*
+*Multi level sub menu 
+*
+*/
 .dropdown-submenu {
   position: relative;
 }
@@ -145,9 +152,6 @@ footer h2{
     text-align: center!important;
     padding: 5px;
     background-color: #241f21;
-  }
-  nav {
-    z-index: 998;
   }
   #headerIMG{
     background-size: cover;
