@@ -3,9 +3,7 @@
 section {
   padding: 150px 0;
 }
-.dropdown:hover>.dropdown-menu{
-  display: block;
-}
+
 .dropdown-menu{
   top: 85%;
 }
