@@ -36,7 +36,7 @@ body .bg-light,
 #topmenu .item{
   display: inline-block;
   border-left: 1px solid #2c292a;
-  padding: 0 14px;
+  padding: 0 1vw;
 }
 #topmenu .item span a{
   font-family: Arial, sans-serif;
@@ -60,6 +60,65 @@ body .bg-light,
   background-position: left 9px center;
   padding-left: 25px;
 }
+
+/* 
+* NAVBAR
+*/
+.navbar{
+  padding: 0;
+}
+
+.navbar-toggler{
+  border-radius: 0!important;
+}
+.navbar .nav-link{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+  padding: 0 15px;
+  font-size: 12px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: rgba(255, 255, 255, 1);
+  padding: 0 1vw;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar .nav li.dropdown.show > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.show.active > .dropdown-toggle {
+  color: #454545;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-toggler{
+  height: 100px;
+  color: #FFF;
+  background-color: #c40e1f;
+  text-decoration: none;
+  float: right;
+  background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/menu-button.png);
+  background-repeat: no-repeat;
+  background-position: center 55px;
+  padding: 80px 20px 45px 20px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-toggler > span{ 
+  background-image: none;
+  margin-right: 16px;
+}
+.bg-black{
+  background-color: #000;
+}
+
 
 .btn-success{
   background-color: #d81224;
@@ -97,6 +156,10 @@ body .bg-light,
   font-size: 12px;
 }
 
+.dropdown-menu-right{
+  left: auto!important;
+}
+
 footer{
   font-size: 12px;
   color: rgb(230, 230, 230);
@@ -108,22 +171,22 @@ footer h2{
 }
 
 /* hover dropdown menus */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .navbar-hover .show > .dropdown-toggle::after{
       transform: rotate(-90deg);
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .navbar-hover .collapse ul li{position:relative;}
   .navbar-hover .collapse ul li:hover> ul{display:block}
-  .navbar-hover .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+  .navbar-hover .collapse ul ul{position:absolute;top:92%;left:0;min-width:250px;display:none}
   .navbar-hover .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
   /*.navbar-hover .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}*/
 }
 
 
 /* DESKTOP */
-@media (min-width: 62em) {
+@media (min-width: 768px) {
   #topmenu-container{
     position: absolute;
     top: 0;
@@ -132,10 +195,13 @@ footer h2{
   body nav{
     padding-top: 36px!important;
   }
+  .mobile{
+    display: none;
+  }
 }
 
 /* MOBILE */
-@media (max-width: 62em) {
+@media (max-width: 767px) {
   #logo{
     position: absolute;
     top: 0;
@@ -157,3 +223,5 @@ footer h2{
     height: 150px;
   } 
 }
+
+
