@@ -215,6 +215,42 @@ footer .col2 .hotel-phone a{
   color: rgb(230, 230, 230);
   font-weight: 500;
 }
+.newsletter-input {
+line-height: 33px;
+    background-color: #191617;
+    height: 33px;
+    width: 90%;
+    font-size: 11px;
+    padding-left: 10px;
+    border: 1px solid #282626;
+    color: #535353;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.btn02{
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFF;
+    background-image: url(https://www.silvercloud.com/bellevueeastgate/wp-content/themes/sc-h/images/btn-bg.png);
+    background-repeat: repeat-x;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 0 22px;
+    border: 0;
+}
+
+.col4 a{
+  color: #e6e6e6;
+  text-decoration: none
+}
+.col4 a img{
+  margin-right: 5px;
+}
 
 /* hover dropdown menus */
 @media only screen and (max-width: 767px) {
