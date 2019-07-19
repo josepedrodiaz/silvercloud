@@ -36,3 +36,16 @@
     
     return false;
 });
+
+//first level menu clickable desktop
+$('.navbar .dropdown > a').click(function() {
+    if ($(window).width() >= 768)
+        location.href = this.href;
+});
+
+//second level menu clickable desktop
+$('ul > li > a').click(function() {
+    if ($(window).width() >= 768)
+        location.href = this.href;
+});
+
