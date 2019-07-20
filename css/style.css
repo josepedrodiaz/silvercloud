@@ -119,11 +119,48 @@ body .bg-light,
   background-color: #000;
 }
 
+/*listado de resultado de búsqueda*/
 
 .btn-success{
   background-color: #d81224;
+  border-color: #d81224;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link { 
+  background-color: #d81224;
+}
+
+.card-header a {
+    color: #212529;
+}
+
+.page-link {  
+  color: #d81224;  
+}
+
+.page-item.active .page-link {
+  background-color: #d81224;
+  border-color: #d81224;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {  
+  background-color: #d81224;
+  border-color: #d81224;
+}
+
+
+.btn-primary {  
+  background-color: #d81224;
+  border-color: #d81224;
+}
+
+.btn-link {  
+  color: #d81224;  
+}
+
+.bg-primary {
+  background-color: #d81224 !important;
+}
 
 /* 
 *
