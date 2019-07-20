@@ -162,6 +162,20 @@ body .bg-light,
   background-color: #d81224 !important;
 }
 
+.text-primary {
+  color: #d81224 !important;
+
+}
+
+breadcrumb-item a {
+  color: #212529;  
+}
+
+.btn-outline-primary {
+  color: #d81224;
+  border-color: #d81224;
+}
+
 /* 
 *
 *Multi level sub menu 
