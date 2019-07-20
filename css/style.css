@@ -167,7 +167,7 @@ body .bg-light,
 
 }
 
-breadcrumb-item a {
+.breadcrumb-item a {
   color: #212529;  
 }
 
