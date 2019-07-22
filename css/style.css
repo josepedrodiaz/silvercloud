@@ -336,6 +336,7 @@ line-height: 33px;
 .btn-success:hover,
 .btn-primary:hover,
 .btn-outline-primary:hover, 
+.btn-secondary:hover,
 .btn-success:hover
 {
   background-color: #d81224;
