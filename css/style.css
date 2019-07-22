@@ -336,11 +336,10 @@ line-height: 33px;
   color: #d81224;
 }
 
-.btn-primary:active
-{
-  color: #d81224;
+.btn-primary.dropdown-toggle {  
+  background-color: #d81224;
+  border-color: #d81224;
 }
-
 
 
 /* hover dropdown menus */
