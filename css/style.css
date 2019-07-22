@@ -336,11 +336,10 @@ line-height: 33px;
   color: #d81224;
 }
 
-.btn-primary.dropdown-toggle {  
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
   background-color: #d81224;
   border-color: #d81224;
 }
-
 
 /* hover dropdown menus */
 @media only screen and (max-width: 991px) {
