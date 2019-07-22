@@ -331,6 +331,18 @@ line-height: 33px;
   border-color: #d81224;
 }
 
+.btn-link:hover
+{
+  color: #d81224;
+}
+
+.btn-primary:active
+{
+  color: #d81224;
+}
+
+
+
 /* hover dropdown menus */
 @media only screen and (max-width: 991px) {
   .navbar-hover .show > .dropdown-toggle::after{
