@@ -320,6 +320,15 @@ line-height: 33px;
   margin-bottom: 0.5em;
 }
 
+/* APP Overwrite CSS :: hover */
+.btn-outline-secondary:hover,
+.btn-success:hover,
+.btn-success:hover
+{
+  background-color: #d81224;
+  border-color: #d81224;
+}
+
 /* hover dropdown menus */
 @media only screen and (max-width: 991px) {
   .navbar-hover .show > .dropdown-toggle::after{
@@ -404,7 +413,7 @@ line-height: 33px;
   .back-top{
     position: absolute;
     right: 20px;
-    bottom: 95px;
+    top: -48px;
   }
   .rowFooter{
     position: relative;
