@@ -176,6 +176,17 @@ body .bg-light,
   border-color: #d81224;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #d81224;
+  border-color: #d81224;
+}
+
+.btn-secondary {
+  background-color: #d81224;
+  border-color: #d81224;
+
+}
+
 /* 
 *
 *Multi level sub menu 
@@ -336,9 +347,10 @@ line-height: 33px;
   color: #d81224;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
   background-color: #d81224;
   border-color: #d81224;
+
 }
 
 /* hover dropdown menus */
