@@ -323,6 +323,8 @@ line-height: 33px;
 /* APP Overwrite CSS :: hover */
 .btn-outline-secondary:hover,
 .btn-success:hover,
+.btn-primary:hover,
+.btn-outline-primary, 
 .btn-success:hover
 {
   background-color: #d81224;
