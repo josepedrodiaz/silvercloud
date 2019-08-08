@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+body nav.navbar-expand-md{
+  padding-top: 0 !important;
+}
+
 section {
   padding: 150px 0;
 }
@@ -9,7 +13,6 @@ section {
 }
 
 body header.bg-primary,
-body .bg-light,
 #topmenu-container {
   background-color: black!important;
 }
