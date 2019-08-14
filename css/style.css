@@ -8,6 +8,10 @@ body nav ul.text-right{
   text-align: left !important;
 }
 
+body nav.mb-3{
+  display: grid;
+}
+
 
 section {
   padding: 150px 0;
@@ -393,11 +397,25 @@ line-height: 33px;
 
   body nav.navbar{
     text-align: left;
-  }
+  } 
+
 }
 
 /* MOBILE */
 @media (max-width: 991px) {
+
+  body nav.mb-3 button {    
+    width: 60px;
+  }
+
+  body nav.mb-3 a {    
+    margin-top: -10px;
+  }
+
+  body nav.mb-3 div ul {    
+    margin-top: 10px;
+  }
+
   #logo{
     position: absolute;
     top: 0;
