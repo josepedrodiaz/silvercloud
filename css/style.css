@@ -17,7 +17,7 @@ section {
   padding: 150px 0;
 }
 
-.dropdown-menu{
+.dropdown-menu{§
   top: 85%;
 }
 
@@ -32,9 +32,9 @@ body header.bg-primary,
   background-size: cover;
 }
 
-#logo img{
+#headerIMG img{
   display: block;
-  margin: 0 auto;
+  margin: 120px;;
 }
 
 #topmenu{
@@ -416,16 +416,19 @@ line-height: 33px;
     margin-top: 10px;
   }
 
-  #logo{
+  #headerIMG {
+    position: initial;
+  }
+
+  #headerIMG #logoContainer{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 999;
-    display: inline;
-    width: 100px;
   }
-  #logo img{
-    transform: scale(.8);
+  #headerIMG img{
+    margin: 10px;
+    transform: scale(0.7);
   }
   #topmenu{
     text-align: center!important;
@@ -442,6 +445,14 @@ line-height: 33px;
   #topmenu .hotel-phone{
     border-top: 1px solid #302a2d;
     border-bottom: 0;
+  }
+  nav ul.dropdown-menu{
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul.dropdown-menu li:first-child{
+    border-top: 1px solid rgba(0,0,0,.15);
   }
   #headerIMG{
     background-size: cover;
