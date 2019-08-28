@@ -23,7 +23,7 @@ section {
 
 body header.bg-primary,
 #topmenu-container {
-  background-color: black!important;
+  background-color: #5e5d5b !important;
 }
 
 #headerIMG{
@@ -129,7 +129,7 @@ body header.bg-primary,
   margin-right: 16px;
 }
 .bg-black{
-  background-color: #000;
+  background-color: #5e5d5b;
 }
 
 /*listado de resultado de búsqueda*/
@@ -240,7 +240,7 @@ footer{
   color: rgb(230, 230, 230);
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 5vw;
-  background-color: #242021;
+  background-color: #5e5d5b;
 }
 footer h2{
   font-weight: 700;
@@ -460,7 +460,7 @@ line-height: 33px;
     height: 40vw;
   }
   footer{
-    background-color: #000;
+    background-color: #5e5d5b;
   }
   footer .col2 .hotel-phone,
   footer .col1, footer .col2, footer .col3, footer .col4{
