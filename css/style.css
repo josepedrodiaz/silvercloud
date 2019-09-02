@@ -77,8 +77,14 @@ body header.bg-primary,
 /* 
 * NAVBAR
 */
+
 .navbar{
   padding: 0;
+}
+
+.navbar img{
+  position: relative;
+  left: 40px;
 }
 
 .navbar-toggler{
@@ -320,7 +326,12 @@ line-height: 33px;
     border-radius: 3px;
     display: inline-block;
     padding: 0 22px;
-    border: 0;
+    border: 0;    
+}
+
+a.btn02:hover {
+  color: #FFF;
+  text-decoration: none;
 }
 
 .col4{
@@ -382,6 +393,8 @@ line-height: 33px;
 }
 
 
+
+
 /* DESKTOP */
 @media (min-width: 992px) {
   #topmenu-container{
@@ -400,10 +413,19 @@ line-height: 33px;
     text-align: left;
   } 
 
+  .navbar{
+    height: 105px;   
+  }
+
+  .navbar img{    
+    z-index: 999;
+    top: -20px;    
+  }
+
 }
 
 /* MOBILE */
-@media (max-width: 991px) {
+@media (max-width: 991px) { 
 
   body nav.mb-3 button {    
     width: 60px;
