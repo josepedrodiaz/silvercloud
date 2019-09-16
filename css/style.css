@@ -466,10 +466,10 @@ a.btn02:hover {
     display: block;    
   }
   #topmenu .hotel-address{
-    /*border-top: 1px solid #302a2d;*/
+    border-top: 1px solid #fff;
   }
   #topmenu .hotel-phone{
-    /*border-top: 1px solid #302a2d;*/
+    border-top: 1px solid #fff;
     border-bottom: 0;
   }
   nav a.navbar-brand{
