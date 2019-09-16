@@ -47,8 +47,7 @@ body header.bg-primary,
   font-size: 10px
 }
 #topmenu .item{
-  display: inline-block;
-  border-left: 1px solid #2c292a;
+  display: inline-block;  
   padding: 0 1vw;
 }
 #topmenu .item span a{
@@ -270,8 +269,8 @@ footer .col1,
 footer .col2,
 footer .col3,
 footer .col4{
-  border-left: 1px solid #312c2d;
-  border-right: 1px solid #171515;
+  border-left: 1px solid #fff;
+  /*border-right: 1px solid #171515;*/
 }
 footer .col1{
   border-left: 0;
@@ -288,7 +287,7 @@ footer .col2 .hotel-phone{
   font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
   padding-top: 15px;
   padding-bottom: 0;
-  border-top: 1px solid #312c2d;
+  border-top: 1px solid #fff;
   border-bottom: none;
   font-size: 22px;
   text-transform: uppercase;
@@ -397,6 +396,11 @@ a.btn02:hover {
 
 /* DESKTOP */
 @media (min-width: 992px) {
+
+  #topmenu .item{    
+    border-left: 1px solid #fff;    
+  }  
+
   #topmenu-container{
     position: absolute;
     top: 0;
@@ -459,14 +463,13 @@ a.btn02:hover {
     background-color: #5e5d5b;
   }
   #topmenu .item{
-    display: block;
-    border-bottom: 1px solid #181516; 
+    display: block;    
   }
   #topmenu .hotel-address{
-    border-top: 1px solid #302a2d;
+    /*border-top: 1px solid #302a2d;*/
   }
   #topmenu .hotel-phone{
-    border-top: 1px solid #302a2d;
+    /*border-top: 1px solid #302a2d;*/
     border-bottom: 0;
   }
   nav a.navbar-brand{
